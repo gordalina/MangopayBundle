@@ -1,0 +1,18 @@
+parameters:
+   gordalina.mangopay.config.class: Gordalina\Mangopay\Config
+   gordalina.mangopay.client.class: Gordalina\Mangopay\Client
+   gordalina.mangopay.notification.operations.class: Gordalina\Bundle\MangopayBundle\Entity\Operations
+
+services:
+   gordalina.mangopay.config:
+        class: %gordalina.mangopay.config.class%
+        arguments:
+            - %gordalina.mangopay.partner%
+            - %gordalina.mangopay.private_key%
+            - %gordalina.mangopay.private_key.passphrase%
+
+   gordalina.mangopay.client:
+        class: %gordalina.mangopay.client.class%
+        arguments: [ "@gordalina.mangopay.config" ]
+        calls:
+            - [ "setSandbox", [ "%gordalina.mangopay.sandbox%" ] ]

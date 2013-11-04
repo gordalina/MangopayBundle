@@ -1,0 +1,23 @@
+{
+    "name": "gordalina/mangopay-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony2 bundle to integrate Mangopay",
+    "keywords": ["mangopay"],
+    "homepage": "https://github.com/gordalina/mangopay-bundle",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.3",
+        "gordalina/mangopay-php": "~0.0"
+    },
+    "authors": [
+        {
+            "name": "Samuel Gordalina",
+            "email": "samuel.gordalina@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-0": { "Gordalina\\Bundle\\MangopayBundle": "" }
+    },
+    "target-dir": "Gordalina/Bundle/MangopayBundle"
+}
