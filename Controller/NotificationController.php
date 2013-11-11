@@ -23,7 +23,7 @@ class NotificationController extends Controller
      * Handles Mangopay notifications.
      * It issues an event which can be handled separately
      *
-     * @param  Request $request
+     * @param  Request  $request
      * @return Response
      */
     public function indexAction(Request $request)

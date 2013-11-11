@@ -7,16 +7,16 @@
     "packages": [
         {
             "name": "gordalina/mangopay-php",
-            "version": "0.0.2",
+            "version": "0.0.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/gordalina/mangopay.git",
-                "reference": "a4fba4d75f3ced30096ac2c6269e4649a2447e8e"
+                "url": "https://github.com/gordalina/mangopay-php.git",
+                "reference": "0d1a345d47d24f478e2fb0fc406e7a9fee8c3821"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gordalina/mangopay/zipball/a4fba4d75f3ced30096ac2c6269e4649a2447e8e",
-                "reference": "a4fba4d75f3ced30096ac2c6269e4649a2447e8e",
+                "url": "https://api.github.com/repos/gordalina/mangopay-php/zipball/0d1a345d47d24f478e2fb0fc406e7a9fee8c3821",
+                "reference": "0d1a345d47d24f478e2fb0fc406e7a9fee8c3821",
                 "shasum": ""
             },
             "require": {
@@ -47,7 +47,7 @@
             "keywords": [
                 "mangopay"
             ],
-            "time": "2013-11-04 14:49:40"
+            "time": "2013-11-06 13:33:30"
         },
         {
             "name": "guzzle/guzzle",
